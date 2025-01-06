@@ -13,7 +13,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /*Generic project styles*/
+    /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 }
@@ -51,7 +51,7 @@ header a {
     list-style-type: none;
 }
 
-menu > li {
+#menu > li {
     margin-bottom: 1em;
 }
 
@@ -71,7 +71,7 @@ nav {
     top: 100%; 
 }
 
-/*Nav toggle*/
+/* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -86,7 +86,7 @@ nav {
 
 /* Main content */
 main {
-    /* Make main elemenet take up any surplus space to push footer down */
+    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
 }
@@ -115,6 +115,33 @@ main {
     color: #ffffff;
 }
 
+/* Reasons section */
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    font-size: 280%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#benefits-physical > div, 
+#benefits-mental > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -125,13 +152,13 @@ main {
 }
 
 #social-networks i {
-    font-size: 100%;
+    font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
 }
 
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     /* Header */
     nav {
         display: block;
@@ -172,7 +199,7 @@ main {
     }
 }
 
-/*Larger devices (laptops and desktops, 992px and up)*/
+/* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
